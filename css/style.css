@@ -1,0 +1,85 @@
+body{
+  overflow-x: hidden;
+}
+#aboutus
+{
+height: 400px;
+background-image:url("../img/about.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#aboutus .col-sm-12{
+background-color: rgba(50, 112, 170, 0.5);
+}
+#aboutus .col-sm-12 h1{
+line-height: 380px;
+font-size: 60px;
+}
+.mycard{
+    transition: 0.5s ease ;
+}
+.mycard:hover{
+margin-top:-30px;
+}
+.zoom-in div img
+{
+transition: 0.5s ease;
+}
+.zoom-in div{
+    overflow: hidden;
+}
+.zoom-in:hover div img {
+transform: scale(1.2);
+}
+.po:hover{
+    border: 1px solid white;
+}
+.mycard-2{
+    transition: 0.5s ease ;
+}
+.mycard-2:hover{
+    margin-top:-30px;
+    color: red;
+}
+.mycard-3{
+    transition: 0.5s ease ;
+}
+.mycard-3:hover{
+    margin-top:-30px;
+    color:green;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons a {
+  display: inline-block;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
