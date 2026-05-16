@@ -7,3 +7,4 @@ This project is a web-based Information Portal for IIM Ayodhya that provides det
 📅 Events & Notices – Updates on upcoming events and campus news.
 🔎 Search Functionality – Easy navigation for users.
 Frontend:  HTML, CSS, Bootstrap ,JavaScript
+@harshitagupta
